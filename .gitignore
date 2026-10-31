@@ -1,0 +1,27 @@
+# Local binaries and build output
+/talk-native
+/talk-native.exe
+*.test
+*.out
+
+# Media samples and packet captures (may be copyrighted or private)
+*.mp4
+*.mov
+*.mkv
+*.ogg
+*.ivf
+*.sdp
+*.pcap
+*.pcapng
+
+# Local configuration, private keys and logs
+.env
+.env.*
+*.log
+*.key
+*.pem
+
+# Editor and OS state
+.vscode/
+.idea/
+.DS_Store
